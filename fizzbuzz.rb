@@ -10,3 +10,5 @@ def fizzbuzz(int)
   else
     return "FizzBuss"
   end
+
+print(fizzbuzz(9))
