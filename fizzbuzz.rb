@@ -2,13 +2,16 @@
 # See README.md for instructions on how to do this
 def fizzbuzz(int)
   if !(int % 3 == 0 || int % 5 == 0)
-    return nil
+    puts "nil"
   elseif int % 3 == 0
-    return "Fizz"
+    puts "Fizz"
   elseif int % 5 == 0
-    return "Buss"
+    puts "Buss"
   else
-    return "FizzBuss"
+    puts "FizzBuss"
   end
 
-puts(fizzbuzz(9))
+fizzbuzz(3)
+fizzbuzz(5)
+fizzbuzz(15)
+fizzbuzz(4)
