@@ -11,4 +11,4 @@ def fizzbuzz(int)
     return "FizzBuss"
   end
 
-print(fizzbuzz(9))
+puts(fizzbuzz(9))
